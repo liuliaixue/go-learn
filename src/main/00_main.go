@@ -43,5 +43,9 @@ func main() {
 	// struct_define_2()
 	// struct_compare()
 	// struct_composite()
-	struct_composite_2()
+	// struct_composite_2()
+
+	// method_struct()
+	method_increase()
+	
 }

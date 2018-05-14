@@ -52,7 +52,6 @@ func struct_define() {
 
 }
 
-
 type person_2 struct {
 	Name    string
 	Age     int
@@ -61,13 +60,13 @@ type person_2 struct {
 	}
 }
 
-type contact_3 struct{
+type contact_3 struct {
 	Phone, City string
 }
 
 type person_3 struct {
-	Name string
-	Age int
+	Name    string
+	Age     int
 	Contact contact_3
 }
 
@@ -75,62 +74,58 @@ func struct_define_2() {
 	a := person_2{Name: "wewe", Age: 22}
 	fmt.Println(a)
 
-	b:= person_3{Name: "p3", Age: 33}
+	b := person_3{Name: "p3", Age: 33}
 	b.Contact = contact_3{Phone: "1818", City: "Shanghai"}
 	fmt.Println(b)
 
 }
 
-
 func struct_compare() {
 
-	a:= person_2{Name: "wewe", Age: 22}
-	b:= person_2{Name: "wewe", Age: 22}
+	a := person_2{Name: "wewe", Age: 22}
+	b := person_2{Name: "wewe", Age: 22}
 
 	fmt.Println(a == b)
 
 }
 
-
 func struct_composite() {
 
-	type human  struct{
+	type human struct {
 		Sex int
 	}
 
-	type teacher  struct{
+	type teacher struct {
 		human
 		Name string
-		Age int
+		Age  int
 	}
-	type student  struct{
+	type student struct {
 		human
 		Name string
-		Age int
+		Age  int
 	}
 
-	a := teacher{human: human{Sex: 1},Name: "tt", Age: 40}
-	b := student{Name:"ss", Age: 20}
+	a := teacher{human: human{Sex: 1}, Name: "tt", Age: 40}
+	b := student{Name: "ss", Age: 20}
 
-	fmt.Println(a,b)
+	fmt.Println(a, b)
 }
-
 
 func struct_composite_2() {
 
-	type human  struct{
+	type human struct {
 		Sex int
 	}
 
-	type teacher  struct{
+	type teacher struct {
 		human
 		Name string
-		Age int
-		Sex int
+		Age  int
+		Sex  int
 	}
-	
 
-	a := teacher{human: human{Sex: 1},Name: "tt", Age: 40}
+	a := teacher{human: human{Sex: 1}, Name: "tt", Age: 40}
 
 	fmt.Println(a)
 }
