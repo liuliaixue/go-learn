@@ -72,3 +72,12 @@ func interface_usb() {
 	GetType(tv)
 	TurnOff(tv)
 }
+
+func print_interface() {
+	var a interface{}
+	var b interface{}
+	fmt.Println(a == b)
+	fmt.Println(a == nil)
+	fmt.Println(b == nil)
+
+}
