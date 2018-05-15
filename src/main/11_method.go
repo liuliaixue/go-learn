@@ -7,7 +7,7 @@ type methon_person struct {
 }
 
 func (a methon_person) printName() {
-	fmt.Println("name is " ,a.Name)
+	fmt.Println("name is ", a.Name)
 }
 
 func (a *methon_person) updateName(name string) {
@@ -20,12 +20,13 @@ func method_struct() {
 	a.updateName("yoyo")
 	fmt.Println(a)
 }
+
 /*******	*******************************/
 type number int
 
 func method_increase() {
 	var a number
-	a.Increase();
+	a.Increase()
 	fmt.Println(a)
 }
 
