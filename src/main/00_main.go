@@ -3,9 +3,7 @@ package main
 import (
 	"fmt"
 )
-
-// import printType
-// import printArray
+import trygo "../trygo"
 
 func main() {
 	fmt.Println("main is running")
@@ -68,4 +66,10 @@ func main() {
 	/**concurrency_6()
 	 */
 	// concurrency_7()
+	// packageTrygo()
+}
+
+func packageTrygo() {
+	trygo.Hello()
+	trygo.Hello()
 }
