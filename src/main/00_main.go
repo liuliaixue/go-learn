@@ -63,10 +63,16 @@ func main() {
 	// concurrency_4()
 	// concurrency_5()
 
-	/**concurrency_6()
-	 */
+	// concurrency_6()
+
 	// concurrency_7()
 	// packageTrygo()
+
+	// concurrency_8()
+	// concurrency_9()
+	// concurrency_9_0()
+	concurrency_9_1()
+
 }
 
 func packageTrygo() {
