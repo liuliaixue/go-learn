@@ -2,3 +2,7 @@
 
 -------
 
+try this cmd:
+```
+go run src/main/*
+```
