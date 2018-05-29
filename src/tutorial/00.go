@@ -16,5 +16,34 @@ func Entry() {
 	// const_type()
 
 	//06 func
-	funcReturn()
+	// funcReturn()
+
+	// 09
+
+	// pase_student()
+
+	// 11 array and slice
+	// slice_type()
+	// slice_append()
+
+	// 12 func
+	// find(1, 2, 3, 4)
+	// find(3, 2, 3, 4)
+
+	// 14 string
+	// printBytes()
+	// printChars_range()
+
+	// 15 pointer
+	// ponter_c()
+	// pointer_change()
+
+	// 16 struct
+	employee()
+
+	//21 goroutine
+
+	// goroutine_waitgroup()
+	// 29
+	// defer_call()
 }
