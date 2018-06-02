@@ -39,9 +39,20 @@ func Entry() {
 	// pointer_change()
 
 	// 16 struct
-	employee()
+	// employee()
+
+	// 18 interface
+	// lookString()
+	// salary()
 
 	//21 goroutine
+
+	//24 select
+	// server_select()
+
+	// 25 mutx
+	mutex_conflict()
+	mutex_no_conflict()
 
 	// goroutine_waitgroup()
 	// 29
