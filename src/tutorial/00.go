@@ -47,14 +47,25 @@ func Entry() {
 
 	//21 goroutine
 
+	//23 chan pool
+	startChanPool()
+
 	//24 select
 	// server_select()
 
 	// 25 mutx
-	mutex_conflict()
-	mutex_no_conflict()
+	// mutex_conflict()
+	// mutex_no_conflict()
 
 	// goroutine_waitgroup()
 	// 29
 	// defer_call()
+	// defer_call_2()
+	// defer_call_3()
+
+	// 30 error
+	// openFile()
+
+	// 32 panic
+	// panic_panic()
 }
