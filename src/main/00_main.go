@@ -4,7 +4,6 @@ import (
 	"fmt"
 )
 import trygo "../trygo"
-import tutorial "../tutorial"
 
 func main() {
 	fmt.Println("main is running")
@@ -43,6 +42,7 @@ func main() {
 	// struct_compare()
 	// struct_composite()
 	// struct_composite_2()
+	structToJSON()
 
 	// method_struct()
 	// method_increase()
@@ -74,7 +74,7 @@ func main() {
 	// concurrency_9_0()
 	// concurrency_9_1()
 
-	tutorial.Entry()
+	// tutorial.Entry()
 
 }
 

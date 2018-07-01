@@ -48,7 +48,7 @@ func Entry() {
 	//21 goroutine
 
 	//23 chan pool
-	startChanPool()
+	// startChanPool()
 
 	//24 select
 	// server_select()

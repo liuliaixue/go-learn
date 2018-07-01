@@ -1,7 +1,9 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
+	"os"
 )
 
 type person struct {
@@ -128,4 +130,26 @@ func struct_composite_2() {
 	a := teacher{human: human{Sex: 1}, Name: "tt", Age: 40}
 
 	fmt.Println(a)
+}
+
+func structToJSON() {
+	type ColorGroup struct {
+		ID     int
+		Name   string
+		Colors []string
+	}
+	group := ColorGroup{
+		ID:     1,
+		Name:   "Reds",
+		Colors: []string{"Crimson", "Red", "Ruby", "Maroon"},
+	}
+	b, err := json.Marshal(group)
+	if err != nil {
+		fmt.Println("error:", err)
+	}
+	os.Stdout.Write(b)
+	fmt.Println("")
+	fmt.Println(b)
+
+	fmt.Println(string(b))
 }
