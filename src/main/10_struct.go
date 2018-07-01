@@ -153,3 +153,45 @@ func structToJSON() {
 
 	fmt.Println(string(b))
 }
+
+func structToJSON2() {
+	type ColorGroup struct {
+		ID     int
+		Name   string
+		Colors []string
+	}
+	var JSONString = []byte(`{
+		ID: 1,
+		Name: 'alan',
+		Colors: '#333333'
+	}`)
+	var jsonObj ColorGroup
+	fmt.Println(JSONString)
+	fmt.Println(string(JSONString))
+	err := json.Unmarshal(JSONString, &jsonObj)
+	if err == nil {
+		fmt.Println(err)
+
+	}
+	fmt.Println(jsonObj)
+	fmt.Println("ID:", jsonObj.ID)
+	fmt.Println("Name:", jsonObj.Name)
+	fmt.Println("Colors:", jsonObj.Colors)
+
+	var JSONString1 = []byte(`{
+		"ID": 1,
+		"Name": "alan",
+		"Colors":[ "#333333"]
+	}`)
+	var jsonObj1 ColorGroup
+	fmt.Println(JSONString1)
+	fmt.Println(string(JSONString1))
+	err1 := json.Unmarshal(JSONString1, &jsonObj1)
+	if err1 == nil {
+		fmt.Println(err)
+	}
+	fmt.Println(jsonObj1)
+	fmt.Println("ID:", jsonObj1.ID)
+	fmt.Println("Name:", jsonObj1.Name)
+	fmt.Println("Colors:", jsonObj1.Colors)
+}

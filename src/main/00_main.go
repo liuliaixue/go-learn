@@ -42,7 +42,8 @@ func main() {
 	// struct_compare()
 	// struct_composite()
 	// struct_composite_2()
-	structToJSON()
+	// structToJSON()
+	structToJSON2()
 
 	// method_struct()
 	// method_increase()
