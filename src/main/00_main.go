@@ -3,10 +3,11 @@ package main
 import (
 	"fmt"
 )
-import trygo "../trygo"
 
 func main() {
-	fmt.Println("main is running")
+	fmt.Println("start main")
+
+	variablesDeclaration()
 	// printType()
 	// printArray()
 	// printSlice()
@@ -43,7 +44,7 @@ func main() {
 	// struct_composite()
 	// struct_composite_2()
 	// structToJSON()
-	structToJSON2()
+	// structToJSON2()
 
 	// method_struct()
 	// method_increase()
@@ -77,9 +78,4 @@ func main() {
 
 	// tutorial.Entry()
 
-}
-
-func packageTrygo() {
-	trygo.Hello()
-	trygo.Hello()
 }
