@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func variablesDeclaration() {
 
@@ -8,6 +11,8 @@ func variablesDeclaration() {
 	fmt.Println("var score int; score = ", score)
 	score = 100
 	fmt.Println("score = 100; score = ", score)
+	a, b, c := 12.333, "cd", 99.12
+	fmt.Println(a, b, math.Min(a, c))
 
 	var name = "Alan"
 	fmt.Println(name)

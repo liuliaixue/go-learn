@@ -7,7 +7,8 @@ import (
 func main() {
 	fmt.Println("start main")
 
-	variablesDeclaration()
+	// variablesDeclaration()
+	typeConerter()
 	// printType()
 	// printArray()
 	// printSlice()
