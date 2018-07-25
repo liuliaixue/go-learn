@@ -7,8 +7,14 @@ import (
 func main() {
 	fmt.Println("start main")
 
+	/* 01 start */
 	// variablesDeclaration()
-	typeConerter()
+	// typeConerter()
+
+	/* 04 Type */
+	baseTypeBoolean()
+	baseTypeInt()
+
 	// printType()
 	// printArray()
 	// printSlice()
