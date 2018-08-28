@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"tutorial"
 )
 
 func main() {
@@ -12,8 +13,8 @@ func main() {
 	// typeConerter()
 
 	/* 04 Type */
-	baseTypeBoolean()
-	baseTypeInt()
+	// baseTypeBoolean()
+	// baseTypeInt()
 
 	// printType()
 	// printArray()
@@ -51,7 +52,8 @@ func main() {
 	// struct_composite()
 	// struct_composite_2()
 	// structToJSON()
-	// structToJSON2()
+	structToJSON2()
+	// structToJSON3()
 
 	// method_struct()
 	// method_increase()
@@ -83,6 +85,6 @@ func main() {
 	// concurrency_9_0()
 	// concurrency_9_1()
 
-	// tutorial.Entry()
+	tutorial.Entry()
 
 }

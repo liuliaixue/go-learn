@@ -4,7 +4,7 @@ import "fmt"
 
 func pointer() {
 	var a = 10
-	var p *int = &a
+	var p = &a
 	fmt.Println("pointer address is ", p)
 }
 
