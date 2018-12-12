@@ -1,4 +1,4 @@
-package main
+package basic
 
 import (
 	"encoding/json"
@@ -161,12 +161,16 @@ type ColorGroup struct {
 	Colors []string
 }
 
+type colors struct {
+	color []string
+}
+
 func structToJSON2() {
 
 	var JSONString = []byte(`{
-		ID: 1,
-		Name: 'alan',
-		Colors: '#333333'
+		"ID": 1,
+		"Name": "alan",
+		"Colors": ["#333333"]
 	}`)
 	var jsonObj ColorGroup
 	// fmt.Println(JSONString)

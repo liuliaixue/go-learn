@@ -1,12 +1,15 @@
-package main
+package basic
 
 import (
 	"fmt"
-	"tutorial"
 )
 
-func main() {
-	fmt.Println("start main")
+/*
+Start ...
+basic function entry
+*/
+func Start() {
+	fmt.Println("basic start ...")
 
 	/* 01 start */
 	// variablesDeclaration()
@@ -52,7 +55,7 @@ func main() {
 	// struct_composite()
 	// struct_composite_2()
 	// structToJSON()
-	structToJSON2()
+	// structToJSON2()
 	// structToJSON3()
 
 	// method_struct()
@@ -84,7 +87,5 @@ func main() {
 	// concurrency_9()
 	// concurrency_9_0()
 	// concurrency_9_1()
-
-	tutorial.Entry()
 
 }

@@ -1,5 +1,6 @@
-// https://studygolang.com/articles/11872
 package tutorial
+
+// https://studygolang.com/articles/11872
 
 import (
 	"fmt"

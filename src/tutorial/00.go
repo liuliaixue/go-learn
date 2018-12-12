@@ -1,9 +1,11 @@
-/**
-ref: https://studygolang.com/articles/11756
-*/
 package tutorial
 
-func Entry() {
+/*
+Start ...
+tutorial for go basic skills
+ref: https://studygolang.com/articles/11756
+*/
+func Start() {
 	// declare_variables()
 
 	// 04
