@@ -91,8 +91,8 @@ func main() {
 
 	//for
 
-	for {
-		fmt.Println("无限循环")
-	}
+	// for {
+	// 	fmt.Println("无限循环")
+	// }
 
 }
